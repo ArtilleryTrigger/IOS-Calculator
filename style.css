@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 25px auto ;
+    padding: 0 25px 50px 25px;
+    grid-gap: 1rem;
+}
+.buttons{
+    display: grid;
+    width: 450px;
+    height: 100%;
+    grid-template-columns:repeat(4, 2rem);
+    grid-template-rows:repeat(5, 2rem);
+    text-align: center;
+    /* padding: 15px; */
+    grid-gap: 15px;
+}
+.result{
+    margin-bottom: -20px;
+    text-align: end;
+    color: white;
+    padding-right: 5px;
+    font-size: 100px;
+}
+.content{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    color: white;
+}
+.content17{
+    grid-column: 1/3;
+    border-radius: 45px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    background-color: rgb(48, 48, 48);
+}
+.content1,
+.content2,
+.content3{
+    font-size: 32px;
+    background-color: rgb(146, 146, 146);
+    color: black;
+}
+.content4,
+.content8,
+.content12,
+.content16,
+.content19{
+    background-color: rgb(255, 184, 51);
+}
+.content5,
+.content6,
+.content7,
+.content9,
+.content10,
+.content11,
+.content13,
+.content14,
+.content15,
+.content18{
+    background-color: rgb(48, 48, 48);
+}
