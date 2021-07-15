@@ -49,7 +49,7 @@ function calculate(){
         alert("Zero Divison Error")
         return result.innerHTML = "infinite"
     }else{
-        return (result.innerHTML = eval(result.innerHTML).toFixed(2));
+        return result.innerHTML = eval(result.innerHTML);
     }
 }
 
